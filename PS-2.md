@@ -59,20 +59,20 @@ point, on my subjective decision of what would be “good enough”.
 
 In terms of uncertainty, the two main sources of uncertainty within my
 simulation are: the set seed and the number of steps taken. By measuring
-the range of values at the beginning of the simulation vs. the end of
-the simulation, we can have at least some idea of how uncertainty has
-been handled in the simulation. I could have used alternate choices of
-metrics, such as the standard deviation, average, or variation between
-values at each seed but ultimately chose to use range as I believe it
-constituted the simplest approach.
-
-### Reproducibility
+the range of values across different seeds at the beginning of the
+simulation vs. the end of the simulation, we can have at least some idea
+of how uncertainty has been handled in the simulation. I could have used
+alternate choices of metrics, such as the standard deviation, average,
+or variation between values at each seed but ultimately chose to use
+range as I believe it constituted the simplest approach.
 
 We can see that as the step size increases, the range between values
 decreases - with more iterations, we can mollify our uncertainty.
 
 The range for the mean decreased by 98.0%. The range for the 95th
 percentile decreased by 96.4%. The range for $π$ decreased by 98.7%.
+
+### Reproducibility
 
 These analyses are reproducible. As I have provided the code and
 selected seed and do not rely on any other direct tools in order to
