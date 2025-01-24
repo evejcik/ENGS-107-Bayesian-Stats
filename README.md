@@ -5,10 +5,14 @@ Emma Vejcik
 
 # Task
 
-Use a Monte Carlo simulation method to: \* determine the mean and the 95
+Use a Monte Carlo simulation method to: 
+
+* determine the mean and the 95
 percentile from a known univariate normal distribution with a mean of
 zero and a standard deviation of one with your estimated uncertainties
-and \* determine the value of pi with your estimated uncertainties.
+and
+
+* determine the value of pi with your estimated uncertainties.
 
 # Approach & Analysis
 
